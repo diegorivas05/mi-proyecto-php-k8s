@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: Docker/Dockerfile
+    image: api-php:latest
+    ports:
+      - "8080:80"
+    environment:
+      - JWT_SECRET=${JWT_SECRET:-gdxxl}
+    restart: unless-stopped
