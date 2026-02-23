@@ -15,4 +15,4 @@ Este proyecto consiste en una aplicación PHP estructurada para ser desplegada m
 Antes de empezar, asegúrate de tener instalado:
 * [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 * [Kubernetes](https://kubernetes.io/) (incluido en Docker Desktop o Minikube)
-* [Git](https://git-scm.com/)
+
